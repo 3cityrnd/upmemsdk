@@ -9,7 +9,8 @@ def getpath():
         ("debian", "10", f"debian10/{inside_ver}"),              # Debian 10 (Buster)
         ("ubuntu", "20.04", f"ubuntu-2004/{inside_ver}"),        # Ubuntu 20.04 LTS
         ("ubuntu", "22.04", f"ubuntu-2204/{inside_ver}"),        # Ubuntu 22.04 LTS
-        ("rocky", "8", "rocky8"),                                # Rocky Linux
+         ("rocky", "8", f"rocky8/{inside_ver}"),                # Rocky Linux 8
+         ("rocky", "9.2", f"rocky8/{inside_ver}"),              # Rocky Linux 9.2
     ]
 
     arch = platform.machine()
